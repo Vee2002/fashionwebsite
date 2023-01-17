@@ -40,7 +40,17 @@ $(document).ready(function(){
         })
         
     });
+    // $(".my-image").each(function(index){
 
+    //     var originalImage = $(this).attr("src")
+    //     var alternativeImage = $(this).data("alternative-image")
+    //     $(this).mouseenter(function(){
+    //         $(this).attr('src',alternativeImage)
+    // })
+    // $(this).mouseleave(function(){
+    //     $(this).attr('src',originalImage)
+    // })
+    // })
     //first image
     $(".my-image1").mouseenter(function(){
         var alternativeImage = $(this).data("alternative-image");
