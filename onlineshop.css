@@ -41,7 +41,7 @@
     color:rgb(235, 166, 82) !important;
 }
 .nav-link{
-    color: black; 
+    color: black !important
 }
 .nav-link:hover{
     color: rgb(235, 166, 82) !important;
@@ -175,7 +175,7 @@
 }
 
 .fig-image img{
-    transition: transform 3s;
+    transition: transform 5s;
 }
 
 .fig-image img:hover{
