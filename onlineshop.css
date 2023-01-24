@@ -82,8 +82,8 @@
 }
 .my-img5{
     object-fit: cover;
-    width:500px;
-    height: 500px;
+    max-width:500px;
+    max-height: 500px;
     margin-top: 5px;
 }
 .side-text{
@@ -122,8 +122,8 @@
 }
 .child1{
     background-color: rgb(165, 141, 111);
-    width: 30em;
-    height: 200px;
+    max-width: 30em;
+    max-height: 200px;
     margin-top: 10px;
     padding-top: 10px;
     color: white;
@@ -175,7 +175,7 @@
 }
 
 .fig-image img{
-    transition: transform 5s;
+    transition: transform 1.5s;
 }
 
 .fig-image img:hover{
